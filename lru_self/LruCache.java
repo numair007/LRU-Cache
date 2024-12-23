@@ -149,9 +149,6 @@ class LRUEvictionPolicy<K,V> implements EvictionPolicy<K,V>{
         cache.get("k5");
         cache.put("k6", 6);
         System.out.println("Now "+cache.get("k4"));
-
-
-
     }
 
 }
